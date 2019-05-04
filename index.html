@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ADA Student feedback</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" type="image/jpg" href="">
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 class="title"><span>ADA</span> Students feedback</h1>
+			<div class="cadre">
+				<div class="partA">
+					<img src="https://techcrunch.com/wp-content/uploads/2015/04/uncle-sam-we-want-you1-kopie_1.png?w=730&crop=1" alt="image" width="100%">
+					<h3>To give us feedback, because this course is made for you! Because it's all about you!</h3>
+					<p>Fill this form if you:</p>
+			        <ul>
+			          <li> - Find an error in the content or in the quizzes</li>
+			          <li> - Have a feedback about instructors or the experience</li>
+			          <li> - Have a suggestion on how to make the course better</li>
+			        </ul>
+				</div>
+				<div class="partB">
+					<h3>Email Us</h3>
+					<div class="alert" id="alert">Thank you for your feedback, dear friend!</div>
+					<form>
+						<p>
+							<label>Name</label>
+							<input type="text" name="Name" id="Name">
+						</p>
+						<p>
+							<label>Track</label>
+							<select name="track" id="track">
+								<option value="ai">AI</option>
+								<option value="web">Web</option>
+								<option value="game">Game</option>
+							</select>
+						</p>
+						<p>
+							<label>Slide name (or objet)</label>
+							<input type="text" name="Slide" required="true" id="Slide">
+						</p>
+						<p class="full">
+							<label>Message</label>
+							<textarea name="message" rows="5" id="message"></textarea>
+						</p>
+						
+						<p class="full"> 
+            				<button type="submit">Submit</button>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>
